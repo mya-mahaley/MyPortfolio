@@ -1,0 +1,556 @@
+html  {
+  background: hsla(221, 76%, 31%, 1);
+
+  background: radial-gradient(circle, hsla(221, 76%, 31%, 1) 0%, hsla(0, 0%, 0%, 1) 89%) no-repeat center center fixed; ;
+  
+  background: -moz-radial-gradient(circle, hsla(221, 76%, 31%, 1) 0%, hsla(0, 0%, 0%, 1) 89%) no-repeat center center fixed; ;
+  
+  background: -webkit-radial-gradient(circle, hsla(221, 76%, 31%, 1) 0%, rgb(0, 8, 54) 89%) no-repeat center center fixed; ;
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#133889", endColorstr="#000000", GradientType=1 );
+}
+
+body { 
+  background-color: aqua;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Clean Fragile';     
+  src: url(./Assets/Fonts/CleanFragilePersonalUse-VGDYw.otf)
+}
+
+@font-face {
+  font-family: 'Gultic Font';     
+  src: url(./Assets/Fonts/GulticFont-Regular.otf)
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: url(./Assets/Fonts/futura\ medium\ bt.ttf);
+}
+@font-face {
+  font-family: 'Krisha';
+  src: url(./Assets/Fonts/KrishaRegular-518Zx.otf);
+}
+@font-face {
+  font-family: 'Neuropol';
+  src: url(./Assets/Fonts/NEUROPOL.ttf);
+}
+@font-face {
+  font-family: 'Popstar';
+  src: url(./Assets/Fonts/POPSTAR.TTF);
+}
+
+h1 {
+  font-family: 'Popstar'; 
+  color: black;                         
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Popstar'; 
+  color: black;                     
+}
+
+
+.Left {
+  text-align: end;
+}
+
+.NavBar {
+  font-family: 'Popstar';
+
+}
+
+.Brand{
+  padding: 0px;           
+}
+
+.BrandImg {
+  max-width: 100px;
+  max-height: auto;
+  height: auto;
+}
+
+.TitleGrid {
+  align-self:center;
+  padding: 25px;
+}
+
+.Name {
+  align-items: end;
+  text-align: end;
+}
+
+.IntroText {
+  color: black;
+  text-align: end;
+  border: black 6px;
+  border-radius: 15px;
+  border-style: solid;
+  background-color: white;
+  font-style: bold;
+  padding: 3%;
+}
+
+.AboutText {
+  color: black;
+  text-align: end;
+  border: black 6px;
+  border-radius: 15px;
+  border-style: solid;
+  background-color: white;
+  font-style: bold;
+  padding: 3%;
+}
+
+.ProjectTextContainer {
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  display: flex;
+}
+
+.ProjectText {
+  color: black;
+  border: black 6px;
+  border-radius: 15px;
+  border-style: solid;
+  background-color: white;
+  font-style: bold;
+  padding: 3%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+.ProjectTextLeft {
+  color: black;
+  border: black 6px;
+  border-radius: 15px;
+  border-style: solid;
+  background-color: white;
+  font-style: bold;
+  padding: 3%;
+  justify-content: left;
+  align-items: left;
+  display: flex;
+}
+
+
+.Links {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.LinkButton {
+  background-color: rgba(42, 45, 220, 0.932);
+  border:white 4px;
+  border-style: solid;
+  border-radius: 10px;
+  color: white;
+  padding: 3px
+}
+
+.TypeButton {
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(92, 92, 92) 100%);
+  border:white 4px;
+  border-style: solid;
+  border-radius: 10px;
+  color: white;
+  padding: 3px;
+  font-family: 'Popstar'; 
+  font-size: x-large;
+  font-weight: bolder;
+  color: white; 
+  width: 100%  
+}
+
+.TypeButton:hover {
+  border:black 4px;
+  border-style: solid;
+  border-radius: 10px;
+}
+.TypeButton:focus, .TypeButton:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border:black 4px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.NameHeader {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10%;
+  animation: shake 5s;
+  animation-iteration-count: infinite;
+}
+
+.ResumeHeader {
+  max-width: 100%;
+  height: auto;
+  animation: shake 5s;
+  animation-iteration-count: infinite;
+}
+
+.NameContainer {
+  margin-left: -3%;
+  margin-top: -6%;
+  justify-content: left;
+}
+
+.SkillsHeader {
+  max-width: 70%;
+  height: auto;
+  -webkit-filter: brightness(2);
+  filter: brightness(2);
+  margin: 5%;
+}
+
+.AstrologyHeader {
+  max-width: 100%;
+  height: auto;
+  margin: 5%;
+}
+
+.WebContainer {
+  background-image: url("./Assets/Backgrounds/ContainerBackground.jpeg");
+  background-size: cover;
+  border:black 10px;
+  border-style: solid;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 6%;
+  height:100%;
+}
+
+.GifDemo {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border:white 5px;
+  border-style: solid;
+}
+
+.ProjectsTypeContainer {
+  background-image: url("./Assets/Backgrounds/White.jpeg");
+  background-size: cover;
+  border:black 10px;
+  border-style: solid;
+  border-radius: 10px;
+  margin-top: 6%;
+  position: relative;
+  padding: 2%;
+}
+
+.AboutContainer1 {
+  background-image: url("./Assets/Backgrounds/TitleBackground.jpeg");
+  background-size: cover;
+  border:black 10px;
+  border-style: solid;
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-right: 2%;
+  position: relative;
+  max-width: 55%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.AboutContainer2 {
+  background-image: url("./Assets/Backgrounds/ContainerBackground.jpeg");
+  background-size: cover;
+  border:black 10px;
+  border-style: solid;
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-right: 2%;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.AboutContainer3 {
+  background-image: url("./Assets/Backgrounds/Black.jpeg");
+  background-size: cover;
+  border:black 10px;
+  border-style: solid;
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-right: 2%;
+  position: relative;
+  max-width: 55%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.AboutContainer4 {
+  background-image: url("./Assets/Backgrounds/GreyPaper.jpeg");
+  background-size: cover;
+  border:black 10px;
+  border-style: solid;
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-right: 2%;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+iframe {
+  overflow: hidden;
+  padding: 3%;
+  width: 100%;
+}
+
+.ProjectsContainer {
+  background-image: url("./Assets/Backgrounds/Black.jpeg");
+  background-size: cover;
+  border:black 10px;
+  border-style: solid;
+  border-radius: 20px;
+  margin-top: 4%;
+  position: relative;
+  padding: 2%;
+}
+
+.ResumeProjectsContainer {
+  background-image: url("./Assets/Backgrounds/GreyPaper.jpeg");
+  background-size: cover;
+  border:black 10px;
+  border-style: solid;
+  border-radius: 20px;
+  margin-top: 4%;
+  position: relative;
+  padding: 2%;
+}
+
+.ProjectsContainer2 {
+  background-image: url("./Assets/Backgrounds/Black2.jpeg");
+  background-size: cover;
+  border:black 10px;
+  border-style: solid;
+  border-radius: 20px;
+  margin-top: 4%;
+  position: relative;
+  padding: 2%;
+}
+
+.ProjectsContainer3 {
+  background-image: url("./Assets/Backgrounds/Black3.jpeg");
+  background-size: cover;
+  border:black 10px;
+  border-style: solid;
+  border-radius: 20px;
+  margin-top: 4%;
+  position: relative;
+  padding: 2%;
+}
+
+.ProjectTitleContainer {
+  justify-content: left;
+  align-items: center;
+  display: flex;
+}
+.ProjectTitleContainerRight {
+  justify-content: right;
+  align-items: center;
+  display: flex;
+}
+
+.ProjectTypeContainer {
+  display: flex;
+  align-items: center;
+}
+
+.ExperienceContainer {
+  display: flex;
+
+}
+
+.ProjectsHeader {
+  max-width: 100%;
+  height: auto;
+}
+
+.ResumeProjectRow {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+
+
+
+.ProjectTitle {
+  color: white;
+  font-weight: bolder;
+}
+
+.ProjectTypeTitle {
+  color: Black;
+  font-weight: bolder;
+  text-align: center;
+}
+.ProjectTitle:hover #slide {
+  transition: 1s;
+  left: 0;
+}
+
+.CarouselContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.CarouselImage {
+  max-width: 70%;
+}
+
+.SkillContainer1 {
+  background-image: url("./Assets/Backgrounds/White.jpeg");
+  background-size: cover;
+  border:black 10px;
+  border-style: solid;
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-right: 2%;
+  position: relative;
+  max-width: 55%;
+  height: auto;
+
+}
+.SkillContainer2 {
+  background-image: url("./Assets/Backgrounds/Black.jpeg");
+  background-size: cover;
+  border:black 10px;
+  border-style: solid;
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-left: 2%;
+  justify-content: center;
+  max-width: 45%;
+  height: auto;
+}
+
+.Skill {
+  background-color: black;
+  border:white 4px;
+  border-style: solid;
+  border-radius: 10px;
+  color: white;
+  padding: 3px
+}
+
+.SkillMessage {
+  background: rgba(42, 45, 220, 0.576);
+  border:white 4px;
+  border-style: solid;
+  border-radius: 10px;
+  color: white;
+  padding: 3px;
+  position: absolute;
+  left: 20%;
+  top: 45%;
+  width: 60%;
+  text-align: center;
+  
+}
+
+.SelectedSkill {
+  background-color: black;
+  border:white 4px;
+  border-style: solid;
+  border-radius: 10px;
+  color: white;
+  padding: 3px;
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+
+.ContactIcon {
+  height: 80px;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.ContactIconContainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.ContactText {
+  text-align: center;
+  color: rgb(198, 198, 198)
+}
+
+.ContactContainer {
+  margin-top: 15%;
+  align-items: center;
+  justify-content: center;
+}
+
+.MediaFrame {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin: 3%;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 0px) rotate(0deg); }
+  25% { transform: translate(-1px, 0px) rotate(-1deg); }
+  50% { transform: translate(1px, 0px) rotate(1deg); }
+  75% { transform: translate(-1px, 0px) rotate(0deg); }
+  100% { transform: translate(1px, 0px) rotate(1deg); }
+}
+
+::-webkit-scrollbar {
+  width: 25px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 25px;
+  max-height: 5px;
+  margin: 1px;
+}
+
+iframe::-webkit-scrollbar {
+  width: 1px;
+}
+
+iframe::-webkit-scrollbar-track {
+  background: black;
+}
+
+iframe::-webkit-scrollbar-thumb {
+  background: green;
+  border-radius: 25px;
+  max-height: 5px;
+  margin: 0px;
+}
+
