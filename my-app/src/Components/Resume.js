@@ -57,13 +57,28 @@ Algorithms + Complexity, Discrete Math, Vector Calculus, Linear Algebra, Differe
             </Container> 
             <Container className="ProjectsContainer" id="Experience">
                 <Row className="ProjectTypeContainer">
-                    <Col xs={2}>
-                    </Col>
                     <Col className="">
                         <img className="ProjectsHeader" src={experience} alt="Experience"/>
                     </Col>
-                    <Col xs={2}>
+                    <Col className="">
+                            <Container className="IntroText">
+                                    <h4 ><strong>iOS Engineer at Swiftkick Mobile</strong></h4>
+                            </Container>
+                            <Container className="IntroText">
+                                    <h6 ><strong>Oct 2023 - Current</strong></h6>
+                            </Container>
+                            <Container className="ProjectText">
+                                <ul>
+                                    <li>Led the development, and release of HomeStory Pro, an architecturally complex, SwiftUI app. Used Combine, Factory, Cognito, Firebase, and other frameworks to produce a data driven app, with a complex authentication system.</li>
+                                    <li>Collaborated closely with product, design, and quality analysis teams to deliver user-friendly and accessible features aligned with business goal of helping high-performing agents grow their business.</li>
+                                    <li>Ensured app stability and quality through rigorous unit testing, continuous integration pipelines, and supporting third party debugging systems
+                                    </li>
+                                </ul>
+                            </Container>
                     </Col>
+                </Row>
+                <Row className="">
+                <h4 ><strong>/n</strong></h4>
                 </Row>
                 <Row className="">
                     <Col className="">

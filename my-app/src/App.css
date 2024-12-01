@@ -1,11 +1,11 @@
 html  {
-  background: hsla(221, 76%, 31%, 1);
+  background: rgb(255, 255, 255);
 
-  background: radial-gradient(circle, hsla(221, 76%, 31%, 1) 0%, hsla(0, 0%, 0%, 1) 89%) no-repeat center center fixed; ;
+  background: radial-gradient(circle, rgb(255, 255, 255) 0%, hsla(0, 0%, 0%, 1) 89%) no-repeat center center fixed; ;
   
-  background: -moz-radial-gradient(circle, hsla(221, 76%, 31%, 1) 0%, hsla(0, 0%, 0%, 1) 89%) no-repeat center center fixed; ;
+  background: -moz-radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(0, 0, 0) 89%) no-repeat center center fixed; ;
   
-  background: -webkit-radial-gradient(circle, hsla(221, 76%, 31%, 1) 0%, rgb(0, 8, 54) 89%) no-repeat center center fixed; ;
+  background: -webkit-radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(0, 0, 0) 89%) no-repeat center center fixed; ;
   
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#133889", endColorstr="#000000", GradientType=1 );
 }
@@ -150,7 +150,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .LinkButton {
-  background-color: rgba(42, 45, 220, 0.932);
+  background-color: rgba(51, 51, 51, 0.932);
   border:white 4px;
   border-style: solid;
   border-radius: 10px;
@@ -460,7 +460,7 @@ iframe {
 }
 
 .SkillMessage {
-  background: rgba(42, 45, 220, 0.576);
+  background: rgba(51, 51, 51, 0.932);
   border:white 4px;
   border-style: solid;
   border-radius: 10px;
