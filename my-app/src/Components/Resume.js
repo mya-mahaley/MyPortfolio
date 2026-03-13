@@ -60,19 +60,40 @@ Algorithms + Complexity, Discrete Math, Vector Calculus, Linear Algebra, Differe
                     <Col className="">
                         <img className="ProjectsHeader" src={experience} alt="Experience"/>
                     </Col>
+                </Row>
+                <Row className="ProjectTypeContainer">
+                    <Col className="">
+                            <Container className="IntroText">
+                                    <h4 ><strong>iOS Engineer at Under Armour</strong></h4>
+                            </Container>
+                            <Container className="IntroText">
+                                    <h6 ><strong>Mar 2025 - Present</strong></h6>
+                            </Container>
+                            <Container className="ProjectText">
+                                <ul>
+                                    <li>Played a key role in rewriting the entire codebase for Under Armour’s shopping app</li>
+                                    <li>Maintained ~80% automated test coverage using Swift Testing and ViewInspector</li>
+                                    <li>Led an app-wide initiative to standardize and streamline SwiftUI animations, improving maintainability and UI consistency</li>
+                                    <li>Collaborated with Android developers to ensure feature and architecture parity across mobile platforms</li>
+                                    <li>Led the transition between content management systems, improving flexibility and increasing user engagement</li>
+                                    <li>Developed and integrated Kotlin Multiplatform libraries to enable shared business logic across iOS and Android</li>
+                                </ul>
+                            </Container>
+                    </Col>
                     <Col className="">
                             <Container className="IntroText">
                                     <h4 ><strong>iOS Engineer at Swiftkick Mobile</strong></h4>
                             </Container>
                             <Container className="IntroText">
-                                    <h6 ><strong>Oct 2023 - Current</strong></h6>
+                                    <h6 ><strong>Oct 2023 - Jan 2025</strong></h6>
                             </Container>
                             <Container className="ProjectText">
                                 <ul>
-                                    <li>Led the development, and release of HomeStory Pro, an architecturally complex, SwiftUI app. Used Combine, Factory, Cognito, Firebase, and other frameworks to produce a data driven app, with a complex authentication system.</li>
-                                    <li>Collaborated closely with product, design, and quality analysis teams to deliver user-friendly and accessible features aligned with business goal of helping high-performing agents grow their business.</li>
-                                    <li>Ensured app stability and quality through rigorous unit testing, continuous integration pipelines, and supporting third party debugging systems
-                                    </li>
+                                    <li>Led the development and release of HomeStory Pro, a complex SwiftUI app for real estate professionals</li>
+                                    <li>Built reactive architecture using Combine and Factory for scalable state management</li>
+                                    <li>Implemented authentication and backend integrations using Cognito and Firebase</li>
+                                    <li>Partnered with product, design, and QA teams to deliver accessible, user-friendly features</li>
+                                    <li>Maintained app reliability through unit testing, CI pipelines, and third-party debugging tools</li>
                                 </ul>
                             </Container>
                     </Col>
@@ -90,9 +111,9 @@ Algorithms + Complexity, Discrete Math, Vector Calculus, Linear Algebra, Differe
                             </Container>
                             <Container className="ProjectText">
                                 <ul>
-                                    <li>Utilized Java, SQL and Android Studio to optimize the visual experience of Google Photos users.</li>
-                                    <li>Implemented a scoring algorithm based on photo metadata.</li>
-                                    <li>Used scores to determine which photos should be highlighted on the user’s home page.</li>
+                                    <li>Developed Android features using Java, SQL, and Android Studio for Google Photos</li>
+                                    <li>Built a scoring algorithm using photo metadata to determine which photos appear on the users' homepage</li>
+                                    <li>Improved visual experience by optimizing how photos are highlighted on the user homepage</li>
                                 </ul>
                             </Container>
                     </Col>
@@ -106,9 +127,9 @@ Algorithms + Complexity, Discrete Math, Vector Calculus, Linear Algebra, Differe
                             </Container>
                             <Container className="ProjectText">
                                 <ul>
-                                    <li>Deployed and AWS Elasticsearch instance to allow recruiters and managers visualize the status of Amazon applicants.</li>
-                                    <li>Optimized and automated the transfer of applicant data into an Elasticsearch database using AWS S3.</li>
-                                    <li>Created a written guideline and tutorial videos for launching future instances of this database across Amazon's HR teams</li>
+                                    <li>Deployed an AWS Elasticsearch instance which enabled recruiters/managers to visualize the status of Amazon applicants</li>
+                                    <li>Automated the ingestion of applicant data using AWS S3 + AWS Lambda</li>
+                                    <li>Created extensive internal documentation and training materials for scaling the system across HR teams</li>
                                 </ul>
                             </Container>
                     </Col>

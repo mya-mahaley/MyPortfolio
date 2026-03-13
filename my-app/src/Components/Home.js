@@ -30,9 +30,8 @@ export default function Home() {
                 <Row>
                     <Col xs={4}/>
                     <Col>
-                        <h3 className="IntroText">I AM A SOFTWARE DEVELOPER AND DESIGNER BASED IN TEXAS. I RECENTLY
-                            GRADUATED FROM THE UNIVERSITY OF TEXAS AT AUSTIN, WITH A BACHELOR'S
-                            DEGREE IN COMPUTER SCIENCE.
+                        <h3 className="IntroText">I AM A SOFTWARE ENGINEER WITH A PASSION FOR iOS DEVELOPMENT.
+                            I GRADUATED FROM THE UNIVERSITY OF TEXAS AT AUSTIN, WITH A BACHELOR'S DEGREE IN COMPUTER SCIENCE.
                         </h3>
 
                     </Col>
